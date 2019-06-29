@@ -6,14 +6,13 @@
           <input type="checkbox" id="control-nav" />
           <label for="control-nav" class="control-nav"></label>
           <label for="control-nav" class="control-nav-close"></label>
+          <img id="DevLogo" src="~assets/loguinho01.png" />
           <nav class="float-r">
             <ul class="list-auto">
               <li id="NomeHelp">
                 <div class="container">
                   <div class="row justify-left q-mr-sm">
-                    <div class="col-2">
-                      <img id="DevLogo" src="~assets/loguinho01.png" />
-                    </div>
+                    <div class="col-2"></div>
                   </div>
                 </div>
               </li>
