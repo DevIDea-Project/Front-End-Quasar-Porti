@@ -3,7 +3,7 @@
     <q-layout view="lHh Lpr lFf">
       <q-layout-header>
         <div class="header">
-          <input type="checkbox" id="control-nav">
+          <input type="checkbox" id="control-nav" />
           <label for="control-nav" class="control-nav"></label>
           <label for="control-nav" class="control-nav-close"></label>
           <nav class="float-r">
@@ -12,7 +12,7 @@
                 <div class="container">
                   <div class="row justify-left q-mr-sm">
                     <div class="col-2">
-                      <img id="DevLogo" src="~assets/loguinho01.png">
+                      <img id="DevLogo" src="~assets/loguinho01.png" />
                     </div>
                   </div>
                 </div>
@@ -44,7 +44,7 @@
           <div class="row justify-center q-mb-xl">
             <div class="col-12">
               <q-parallax>
-                <img id="ImgBanner" slot="media" src="~assets/note02.jpg">
+                <img id="ImgBanner" slot="media" src="~assets/note02.jpg" />
                 <h1 id="CAFe">Portifolio DevIDe></h1>
               </q-parallax>
             </div>
@@ -171,8 +171,8 @@
                 nossa aplicação. Contamos com sua informação, deixe aqui sua mensagem nos
                 avaliando, dando opniões ou até mesmo tirando dúvidas.
               </p>
-              <q-input v-model="text" type="Nome" float-label="Nome" placeholder="Nome"/>
-              <q-input v-model="text" type="Email" float-label="Email" placeholder="Email"/>
+              <q-input v-model="text" type="Nome" float-label="Nome" placeholder="Nome" />
+              <q-input v-model="text" type="Email" float-label="Email" placeholder="Email" />
               <q-input
                 v-model="text"
                 type="mensagem"
@@ -193,74 +193,80 @@
         <div class="container">
           <div class="row justify-center q-ma-xl">
             <div class="col-12">
-              <h2 id="topico1" class="row justify-center q-ma-xl">Link GitProject:</h2>
-              <q-card class="q-ma-sm" inline style="width:260px; col-6">
+              <h2 id="topico1" class="row justify-center q-ma-xl">Principais Projetos:</h2>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row justify-center q-ma-xl">
+            <div class="col-10">
+              <q-card inline style="width:260px;">
                 <q-card-media>
-                  <img src="~assets/node.jpeg">
+                  <img src="~assets/node.jpeg" />
                 </q-card-media>
                 <q-card-title>
                   Projeto Back e Front
-                  <q-rating slot="subtitle" v-model="stars" :max="5"/>
+                  <q-rating slot="subtitle" v-model="stars" :max="5" />
                   <div slot="right" class="row items-center">
-                    <q-icon name="place"/>PE
+                    <q-icon name="place" />PE
                   </div>
                 </q-card-title>
                 <q-card-main>
-                  <p>$Desenvolvimento Web</p>
+                  <p>Desenvolvimento Web</p>
                   <p class="text-faded">Serviços de cuidadores para idosos.</p>
                 </q-card-main>
-                <q-card-separator/>
+                <q-card-separator />
               </q-card>
-              <q-card class="q-ma-sm" inline style="width:260px; col-6">
+              <q-card inline style="width: 260px;">
                 <q-card-media>
-                  <img src="~assets/node.jpeg">
+                  <img src="~assets/node.jpeg" />
                 </q-card-media>
                 <q-card-title>
                   Biblioteca em Java
-                  <q-rating slot="subtitle" v-model="stars" :max="5"/>
+                  <q-rating slot="subtitle" v-model="stars" :max="5" />
                   <div slot="right" class="row items-center">
-                    <q-icon name="place"/>PE
+                    <q-icon name="place" />PE
                   </div>
                 </q-card-title>
                 <q-card-main>
                   <p>Desenvolvimento Desktop</p>
                   <p class="text-faded">Serviços de cuidadores para idosos.</p>
                 </q-card-main>
-                <q-card-separator/>
+                <q-card-separator />
               </q-card>
-              <q-card class="q-ma-sm" inline style="width:260px; col-6">
+              <q-card inline style="width: 260px;">
                 <q-card-media>
-                  <img src="~assets/node.jpeg">
+                  <img src="~assets/node.jpeg" />
                 </q-card-media>
                 <q-card-title>
                   Mauricio Chagas
-                  <q-rating slot="subtitle" v-model="stars" :max="5"/>
+                  <q-rating slot="subtitle" v-model="stars" :max="5" />
                   <div slot="right" class="row items-center">
-                    <q-icon name="place"/>250 ft
+                    <q-icon name="place" />PE
                   </div>
                 </q-card-title>
                 <q-card-main>
-                  <p>$・Brasil, Enfermeiro Sr</p>
+                  <p>Desenvolvimento Web</p>
                   <p class="text-faded">Serviços de cuidadores para idosos.</p>
                 </q-card-main>
-                <q-card-separator/>
+                <q-card-separator />
               </q-card>
-              <q-card class="q-ma-sm" inline style="width:260px; col-6">
+              <q-card inline style="width: 260px;">
                 <q-card-media>
-                  <img src="~assets/node.jpeg">
+                  <img src="~assets/node.jpeg" />
                 </q-card-media>
                 <q-card-title>
                   Vitoria Caldas
-                  <q-rating slot="subtitle" v-model="stars" :max="5"/>
+                  <q-rating slot="subtitle" v-model="stars" :max="5" />
                   <div slot="right" class="row items-center">
-                    <q-icon name="place"/>250 ft
+                    <q-icon name="place" />PE
                   </div>
                 </q-card-title>
                 <q-card-main>
-                  <p>$・Brasil, Cuidadora</p>
+                  <p>Desenvolvimento Web</p>
                   <p class="text-faded">Serviço especial com crianças.</p>
                 </q-card-main>
-                <q-card-separator/>
+                <q-card-separator />
               </q-card>
             </div>
           </div>
@@ -278,7 +284,7 @@
         </div>-->
       </footer>
       <q-page-container>
-        <router-view/>
+        <router-view />
       </q-page-container>
     </q-layout>
   </div>
