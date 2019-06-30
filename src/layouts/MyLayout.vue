@@ -199,7 +199,7 @@
         <div class="container">
           <div class="row justify-center q-ma-xl">
             <div class="col-10">
-              <q-card inline style="width:260px;">
+              <!--<q-card inline style="width:260px;">
                 <q-card-media>
                   <img src="~assets/node.jpeg" />
                 </q-card-media>
@@ -266,7 +266,7 @@
                   <p class="text-faded">Serviço especial com crianças.</p>
                 </q-card-main>
                 <q-card-separator />
-              </q-card>
+              </q-card>-->
             </div>
           </div>
         </div>
@@ -281,6 +281,31 @@
             </div>
           </div>
         </div>-->
+        <div id="estatisticas" class="estatisticas">
+          <div class="container">
+            <div class="row">
+              <div id="data" class="col-md-4">
+                <p>
+                  2019
+                  <small>Criação do Site</small>
+                </p>
+              </div>
+
+              <div id="projetos" class="col-md-4">
+                <p>
+                  11
+                  <small>Projetos</small>
+                </p>
+              </div>
+              <div id="formacao" class="col-md-4">
+                <p>
+                  2019
+                  <small>Ano de Formação</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </footer>
       <q-page-container>
         <router-view />
