@@ -62,6 +62,8 @@
                 O que mais me encanta na área de tecnologia é saber que sempre você tem um novo desafio,
                 assim podendo ser uma pessoa proativa e em busca de novas metas. Faço também curso de inglês no Senac.
                 Básicamente um pequeno resumo, onde tento explicar um pouco sobre mim. Conclusão do curso em Dezembro 2019.
+                Criei está single application para mostrar um pouco do meu lado profissional e também algunas preferencias
+                como pessoas.
               </p>
               <h2 id="topico1" class="row justify-center q-ma-xl">Projetos Recentes:</h2>
               <div class="container" id="avatar">
@@ -131,7 +133,7 @@
                       <iframe src="statics/CurriculoBruno.pdf" id="curriculo"></iframe>
                     </div>
 
-                    <h2 id="topico1" class="row justify-center q-ma-xl">Conhecimento:</h2>
+                    <h2 id="topico1" class="row justify-center q-ma-xl">Area de Conhecimento:</h2>
                     <lis class="paragrafo" style="text-align: left" id="li">
                       <li>Idioma: Inglês no Senac.</li>
                       <li>Curso Extra: Informatica na Unibratec.</li>
@@ -139,7 +141,7 @@
                       <li>Web Front-End: JavaScript, HTML5 e CSS3.</li>
                       <li>Banco de Dados: MySql, SQLServer e MongoDB.</li>
                       <li>Desenvolvimento para Desktop: Java e C#.(POO)</li>
-                      <li>Estudo em andamento: React e Angular.</li>
+                      <li>Estudo em andamento: React e React Native.</li>
                       <li>FrameWork: Express, Knex, Body-Parse, BootStrap e Quasar.</li>
                     </lis>
 
@@ -182,17 +184,22 @@
                 <q-btn
                   class="q-mr-xl q-ml-xl q-mt-md"
                   style="width:50%; height:20px"
-                  color="blue"
+                  color="primary"
                   label="Enviar"
                 />
               </div>
             </div>
           </div>
         </div>
-        <div class="container">
+        <div class="container" id="sociais">
           <div class="row justify-center q-ma-xl">
             <div class="col-7">
               <h2 id="topico1" class="row justify-center q-ma-xl">Mídias sociais:</h2>
+              <p id="paragrafo" style="text-align: left">
+                Aqui está o link das minhas redes sociais e profissionais.
+                Nela você poderá clicar e será direcionado exatamente
+                para a pagina do meu perfil em cada uma delas.
+              </p>
               <div class="rede" id="facebook">
                 <img class="icone" src="~assets/facebook.png" />
               </div>
@@ -206,7 +213,7 @@
                 <img class="icone" src="~assets/plus.png" />
               </div>
               <div class="rede" id="snapchat">
-                <img class="icone" src="~assets/snap.png" />
+                <img class="icone" src="~assets/linkdin.png" />
               </div>
               <div class="rede" id="whatsapp">
                 <img class="icone" src="~assets/whatsapp.png" />
@@ -224,7 +231,7 @@
       <footer>
         <div id="estatisticas" class="estatisticas">
           <div class="container">
-            <div class="row">
+            <div class="row q-ma-xl">
               <div id="data" class="col-md-4">
                 <p>
                   2019
