@@ -191,115 +191,56 @@
         </div>
         <div class="container">
           <div class="row justify-center q-ma-xl">
-            <div class="col-12">
-              <h2 id="topico1" class="row justify-center q-ma-xl">Principais Projetos:</h2>
+            <div class="col-7">
+              <h2 id="topico1" class="row justify-center q-ma-xl">Mídias sociais:</h2>
+              <div class="rede" id="facebook">
+                <img class="icone" src="~assets/facebook.png" />
+              </div>
+              <div class="rede" id="twiter">
+                <img class="icone" src="~assets/twitter.png" />
+              </div>
+              <div class="rede" id="instagram">
+                <img class="icone" src="~assets/instagram.png" />
+              </div>
+              <div class="rede" id="gmail">
+                <img class="icone" src="~assets/plus.png" />
+              </div>
+              <div class="rede" id="snapchat">
+                <img class="icone" src="~assets/snap.png" />
+              </div>
+              <div class="rede" id="whatsapp">
+                <img class="icone" src="~assets/whatsapp.png" />
+              </div>
             </div>
           </div>
         </div>
         <div class="container">
           <div class="row justify-center q-ma-xl">
-            <div class="col-10">
-              <!--<q-card inline style="width:260px;">
-                <q-card-media>
-                  <img src="~assets/node.jpeg" />
-                </q-card-media>
-                <q-card-title>
-                  Projeto Back e Front
-                  <q-rating slot="subtitle" v-model="stars" :max="5" />
-                  <div slot="right" class="row items-center">
-                    <q-icon name="place" />PE
-                  </div>
-                </q-card-title>
-                <q-card-main>
-                  <p>Desenvolvimento Web</p>
-                  <p class="text-faded">Serviços de cuidadores para idosos.</p>
-                </q-card-main>
-                <q-card-separator />
-              </q-card>
-              <q-card inline style="width: 260px;">
-                <q-card-media>
-                  <img src="~assets/node.jpeg" />
-                </q-card-media>
-                <q-card-title>
-                  Biblioteca em Java
-                  <q-rating slot="subtitle" v-model="stars" :max="5" />
-                  <div slot="right" class="row items-center">
-                    <q-icon name="place" />PE
-                  </div>
-                </q-card-title>
-                <q-card-main>
-                  <p>Desenvolvimento Desktop</p>
-                  <p class="text-faded">Serviços de cuidadores para idosos.</p>
-                </q-card-main>
-                <q-card-separator />
-              </q-card>
-              <q-card inline style="width: 260px;">
-                <q-card-media>
-                  <img src="~assets/node.jpeg" />
-                </q-card-media>
-                <q-card-title>
-                  Mauricio Chagas
-                  <q-rating slot="subtitle" v-model="stars" :max="5" />
-                  <div slot="right" class="row items-center">
-                    <q-icon name="place" />PE
-                  </div>
-                </q-card-title>
-                <q-card-main>
-                  <p>Desenvolvimento Web</p>
-                  <p class="text-faded">Serviços de cuidadores para idosos.</p>
-                </q-card-main>
-                <q-card-separator />
-              </q-card>
-              <q-card inline style="width: 260px;">
-                <q-card-media>
-                  <img src="~assets/node.jpeg" />
-                </q-card-media>
-                <q-card-title>
-                  Vitoria Caldas
-                  <q-rating slot="subtitle" v-model="stars" :max="5" />
-                  <div slot="right" class="row items-center">
-                    <q-icon name="place" />PE
-                  </div>
-                </q-card-title>
-                <q-card-main>
-                  <p>Desenvolvimento Web</p>
-                  <p class="text-faded">Serviço especial com crianças.</p>
-                </q-card-main>
-                <q-card-separator />
-              </q-card>-->
-            </div>
+            <div class="col-12"></div>
           </div>
         </div>
       </section>
 
       <footer>
-        <!--<div class="footer" id="Contatos">
-          <div class="row q-ma-xl justify-center">
-            <div class="col-2">
-              <h2 id="contato"></h2>
-              <div class="row justify-left" id="instagram"></div>
-            </div>
-          </div>
-        </div>-->
         <div id="estatisticas" class="estatisticas">
           <div class="container">
             <div class="row">
               <div id="data" class="col-md-4">
                 <p>
                   2019
-                  <small>Criação do Site</small>
+                  <small>Criação do Portifolio</small>
                 </p>
               </div>
 
               <div id="projetos" class="col-md-4">
                 <p>
-                  11
+                  14
                   <small>Projetos</small>
                 </p>
               </div>
               <div id="formacao" class="col-md-4">
                 <p>
-                  2019
+                  2019/2
                   <small>Ano de Formação</small>
                 </p>
               </div>
