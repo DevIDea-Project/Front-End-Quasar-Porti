@@ -1,4 +1,5 @@
 <template>
+  <!-- TODO Resolver responsividade -->
   <div class="wrap">
     <q-layout view="lHh Lpr lFf">
       <q-layout-header>
