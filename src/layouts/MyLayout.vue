@@ -68,8 +68,8 @@
               </p>
               <h2 id="topico1" class="row justify-center q-ma-xl">Projetos Recentes:</h2>
               <div class="container" id="avatar">
-                <div class="row q-ma-xl justify-center">
-                  <div class="col-10">
+                <div class="row q-ma-sm justify-center">
+                  <div class="col-12">
                     <q-carousel
                       color="white"
                       height="500px"
@@ -82,7 +82,7 @@
                       autoplay="infinite"
                     >
                       <q-carousel-slide :name="1" img-src="statics/img01.jpg">
-                        <div class="absolute-bottom custom-caption">
+                        <div class="absolute-bottom custom-caption" id="projeto1">
                           <div class="q-display-1">Projeto Portifolio WEB:</div>
                           <div
                             class="q-headline"
@@ -90,7 +90,7 @@
                         </div>
                       </q-carousel-slide>
                       <q-carousel-slide :name="2" img-src="statics/img02.jpg">
-                        <div class="absolute-bottom custom-caption">
+                        <div class="absolute-bottom custom-caption" id="projeto2">
                           <div class="q-display-1">Projeto Biblioteca em - JAVA</div>
                           <div
                             class="q-headline"
@@ -98,7 +98,7 @@
                         </div>
                       </q-carousel-slide>
                       <q-carousel-slide :name="3" img-src="statics/img03.jpg">
-                        <div class="absolute-bottom custom-caption">
+                        <div class="absolute-bottom custom-caption" id="projeto3">
                           <div class="q-display-1">Projeto HelpUp Back-End e Front-End</div>
                           <div
                             class="q-headline"
@@ -106,7 +106,7 @@
                         </div>
                       </q-carousel-slide>
                       <q-carousel-slide :name="4" img-src="statics/img04.jpg">
-                        <div class="absolute-bottom custom-caption">
+                        <div class="absolute-bottom custom-caption" id="projeto4">
                           <div class="q-display-1">Tela de Login em Angular</div>
                           <div
                             class="q-headline"
